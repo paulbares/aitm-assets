@@ -8,7 +8,7 @@
       "expression":"sum(`quantity`)"
    },
    {
-      "alias":"quantity div by 10",
+      "alias":"quantity div by 10.",
       "expression":"sum(`quantity`) / 10"
    }
 ]
