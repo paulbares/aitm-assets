@@ -2,5 +2,9 @@
    {
       "alias":"indice-prix",
       "expression":"sum(capdv) / sum(competitor_price * quantity)"
+   },
+   {
+      "alias":"capdv",
+      "expression":"sum(capdv)"
    }
 ]
