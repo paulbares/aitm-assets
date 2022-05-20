@@ -1,10 +1,10 @@
 [
    {
-      "alias":"indice-prix",
-      "expression":"sum(`numerateur-indice`) / sum(`score-visi`)"
+      "alias":"capdv_concurrents",
+      "expression":"sum(competitor_price * quantity)"
    },
    {
-      "alias":"marge",
-      "expression":"sum(`marge`)"
+      "alias":"indice_prix",
+      "expression":"sum(capdv) / sum(competitor_price * quantity)"
    }
 ]
