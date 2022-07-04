@@ -1,6 +1,6 @@
 [
    {
-      "@class": "me.paulbares.query.AggregatedMeasure",
+      "@class": "me.paulbares.query.ExpressionMeasure",
       "alias":"price",
       "expression":"sum(`price`)"
    },
