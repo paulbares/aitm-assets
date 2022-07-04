@@ -1,9 +1,11 @@
 [
    {
+      "@class":"me.paulbares.query.ExpressionMeasure",
       "alias":"capdv_concurrents",
       "expression":"sum(competitor_price * quantity)"
    },
    {
+      "@class":"me.paulbares.query.ExpressionMeasure",
       "alias":"indice_prix",
       "expression":"sum(capdv) / sum(competitor_price * quantity)"
    }
