@@ -1,13 +1,16 @@
 [
    {
+      "@class": "me.paulbares.query.AggregatedMeasure",
       "alias":"price",
       "expression":"sum(`price`)"
    },
    {
+      "@class": "me.paulbares.query.ExpressionMeasure",
       "alias":"quantity",
       "expression":"sum(`quantity`)"
    },
    {
+      "@class": "me.paulbares.query.ExpressionMeasure",
       "alias":"quantity div by 10.",
       "expression":"sum(`quantity`) / 10"
    }
